@@ -1,0 +1,40 @@
+NOTES DE COURS - LICENCE INFORMATIQUE - SEMESTRE 3
+
+=== ALGORITHMIQUE ===
+La complexité mesure le nombre d'opérations d'un algorithme selon la taille n des données.
+Recherche séquentielle : on parcourt le tableau case par case. Complexité O(n).
+Recherche dichotomique : le tableau doit être TRIÉ. On coupe en deux à chaque étape. Complexité O(log n).
+Exemple : pour 1024 éléments, la dichotomie fait au plus 10 comparaisons.
+Tri à bulles : on échange les voisins mal placés. Complexité O(n²), lent sur de gros tableaux.
+Tri fusion : on coupe en deux, on trie chaque moitié, puis on fusionne. Complexité O(n log n).
+Une fonction récursive s'appelle elle-même. Elle doit toujours avoir un cas de base pour s'arrêter.
+Pile (LIFO) : le dernier entré est le premier sorti. Exemple : la pile des appels de fonctions.
+File (FIFO) : le premier entré est le premier sorti. Exemple : une file d'attente d'impression.
+
+=== BASES DE DONNÉES ===
+Une base relationnelle range les données dans des tables (lignes et colonnes).
+La clé primaire identifie chaque ligne de façon unique. Elle ne peut pas être NULL.
+La clé étrangère fait référence à la clé primaire d'une autre table.
+SELECT nom FROM etudiants WHERE filiere = 'Informatique'; -> lit des données.
+INSERT INTO etudiants (nom, prenom) VALUES ('Diop', 'Awa'); -> ajoute une ligne.
+COUNT(*) compte les lignes. AVG(colonne) calcule une moyenne.
+Une jointure (JOIN) combine deux tables grâce à une colonne commune.
+Normalisation : on découpe les tables pour éviter les doublons (1NF, 2NF, 3NF).
+Transaction : un groupe d'opérations qui réussit entièrement ou échoue entièrement.
+Propriétés ACID : Atomicité, Cohérence, Isolation, Durabilité.
+
+=== RÉSEAUX ===
+Le modèle OSI a 7 couches : Physique, Liaison, Réseau, Transport, Session, Présentation, Application.
+Une adresse IPv4 fait 32 bits, par exemple 192.168.1.10.
+Masque /24 = 255.255.255.0 : 24 bits pour le réseau, 8 bits pour les machines.
+Un réseau /24 contient 254 adresses utilisables (256 moins l'adresse réseau et le broadcast).
+TCP est fiable : connexion en 3 étapes (SYN, SYN-ACK, ACK) et accusés de réception.
+UDP est rapide mais sans garantie : utilisé pour la vidéo en direct et les jeux en ligne.
+Ports à connaître : HTTP 80, HTTPS 443, SSH 22, DNS 53.
+Le DNS traduit un nom de domaine (wikipedia.org) en adresse IP.
+
+=== MES NOTES DE CONTRÔLE (sur 20) ===
+Algorithmique : contrôle 1 = 12, contrôle 2 = 14, contrôle 3 = 10
+Bases de données : contrôle 1 = 16, contrôle 2 = 12
+Réseaux : contrôle 1 = 9, contrôle 2 = 11, contrôle 3 = 10
+Examens du semestre : du 15 au 19 décembre. Note éliminatoire : moins de 5 sur 20.

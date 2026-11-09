@@ -202,7 +202,3 @@ L'offre gratuite a des limites (requêtes par minute et par jour), mais elles su
 
 - Documentation smolagents : https://huggingface.co/docs/smolagents
 - Cours gratuit sur les agents (Hugging Face) : https://huggingface.co/learn/agents-course
-
----
-
-Fait par [Daouda BA](https://github.com/daoodaba975) · [Galsen DEV](https://galsen.dev)

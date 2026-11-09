@@ -1,0 +1,93 @@
+:root {
+  --slidev-theme-primary: #A78BFA;
+}
+
+.slidev-layout {
+  background-color: #0F0B1E;
+  color: #E5E7EB;
+}
+
+.slidev-layout.default {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slidev-layout h1 {
+  color: #fff;
+}
+
+.slidev-layout h1 + p {
+  opacity: 1;
+}
+
+.accent  { color: #A78BFA; }
+.accent2 { color: #C4B5FD; }
+.accent3 { color: #DDD6FE; }
+.muted   { color: #9CA3AF; }
+
+.card {
+  background: #18132E;
+  border: 1px solid rgba(167,139,250,0.25);
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  color: #E5E7EB;
+}
+
+.card-light {
+  background: #241A4D;
+  border: 1px solid rgba(167,139,250,0.35);
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  color: #fff;
+}
+
+.tool-card {
+  background: #18132E;
+  border: 1px solid rgba(167,139,250,0.25);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  color: #E5E7EB;
+}
+
+.step-num {
+  background: #6D28D9;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 6px;
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.6rem;
+  flex-shrink: 0;
+}
+
+.cmd {
+  background: #2A1F55;
+  color: #fff;
+  border: 1px solid rgba(167,139,250,0.35);
+  font-family: "Fira Code", monospace;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+}
+
+.big-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #fff;
+  line-height: 1.6;
+}
+
+:root {
+  --slidev-code-background: #18132E;
+}
+
+.slidev-code {
+  font-size: 0.72rem !important;
+  background: #18132E !important;
+  border: 1px solid rgba(167,139,250,0.25);
+}

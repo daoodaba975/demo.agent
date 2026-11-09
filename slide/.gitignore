@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.slidev/
+*.pdf
+
+# demo : venv Python
+.venv/
+__pycache__/
